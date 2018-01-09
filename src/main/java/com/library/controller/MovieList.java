@@ -25,7 +25,12 @@ public class MovieList {
 
     private static class MovieListHolder {
 
-        private static final MovieList INSTANCE = new MovieList();
+    	
+    	
+    	
+    	
+    	
+        private static final MovieList 	INSTANCES = new MovieList();
     }
 
     public Movie addMovie(Movie movie) throws MovieAlreadyExistsException {
